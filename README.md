@@ -1,5 +1,5 @@
-#Hexic HD - PC Native Recompilation
-#Xbox 360 XBLA title Hexic HD (Title ID: 584107D1) statically recompiled to a native x86-64 PC executable using the ReXGlue SDK.
+# Hexic HD - PC Native Recompilation
+# Xbox 360 XBLA title Hexic HD (Title ID: 584107D1) statically recompiled to a native x86-64 PC executable using the ReXGlue SDK.
 
 No emulator. No interpreter. No JIT. The original PowerPC code is converted to C++ at build time and compiled natively with Clang.
 
