@@ -1,0 +1,39 @@
+[2026-08-16 17:01:07.725] [info] [core] [t1208] hexic_hd starting
+[2026-08-16 17:01:07.725] [info] [core] [t1208]   Game directory: C:\Users\AleemB\Downloads\Hexic_HD_Extraido
+[2026-08-16 17:01:07.725] [info] [core] [t1208]   User data:      C:\Users\AleemB\Documents\hexic_hd
+[2026-08-16 17:01:07.725] [info] [core] [t1208]   Cache root:     C:\Users\AleemB\Documents\hexic_hd\cache
+[2026-08-16 17:01:07.726] [info] [sys] [t1208] GPU plugin 'xenos' loaded (rexgpu-xenosrd.dll)
+[2026-08-16 17:01:07.740] [info] [gpu] [t1208] DXGI adapter: AMD Radeon(TM) Graphics (vendor 0x1002, device 0x1638)
+[2026-08-16 17:01:07.804] [info] [gpu] [t1208] Direct3D 12 device and OS features:
+* Max GPU virtual address bits per resource: 44
+* Non-zeroed heap creation: yes
+* Pixel-shader-specified stencil reference: yes
+* Programmable sample positions: tier 2
+* Rasterizer-ordered views: yes
+* Resource binding: tier 3
+* Tiled resources: tier 3
+* Unaligned block-compressed textures: yes
+[2026-08-16 17:01:07.902] [info] [sys] [t1208] FunctionDispatcher initialized
+[2026-08-16 17:01:07.902] [info] [core] [t1208] SDL: Using version 3.5.0
+[2026-08-16 17:01:07.902] [info] [core] [t1208] MnK input driver initialized
+[2026-08-16 17:01:07.902] [info] [sys] [t1208] Input system initialized
+[2026-08-16 17:01:07.934] [info] [sys] [t1208] Audio system initialized
+[2026-08-16 17:01:07.934] [info] [sys] [t4412] XThread::Execute thid 1 (handle=F8000010, 'XMA Decoder (F8000010)', native=0000113C, <host>)
+[2026-08-16 17:01:07.935] [info] [sys] [t8328] XThread::Execute thid 2 (handle=F8000014, 'Audio Worker (F8000014)', native=00002088, <host>)
+[2026-08-16 17:01:07.935] [info] [sys] [t1208]   Mounted C:\Users\AleemB\Downloads\Hexic_HD_Extraido at \Device\Harddisk0\Partition1
+[2026-08-16 17:01:07.935] [info] [sys] [t13880] XThread::Execute thid 3 (handle=F8000018, 'GPU Commands (F8000018)', native=00003638, <host>)
+[2026-08-16 17:01:07.935] [info] [sys] [t1208] GPU system initialized (presentation=true)
+[2026-08-16 17:01:07.935] [info] [sys] [t1208] Runtime initialized successfully
+[2026-08-16 17:01:07.936] [info] [sys] [t15464] XThread::Execute thid 4 (handle=F800001C, 'GPU VSync (F800001C)', native=00003C68, <host>)
+[2026-08-16 17:01:07.937] [info] [core] [t1208] Function table initialized for module: code=9204E000-9224F91C, image=92000000-922A5000
+[2026-08-16 17:01:07.961] [warning] [core] [t1208] SDL GameControllerDB: file 'gamecontrollerdb.txt' does not exist.
+[2026-08-16 17:01:07.961] [info] [core] [t1208] SDL input driver initialized successfully
+[2026-08-16 17:01:07.961] [info] [sys] [t1208] Loading XEX image: game:\default.xex
+[2026-08-16 17:01:07.982] [info] [sys] [t1208] Achievement store: loaded 12 entries
+[2026-08-16 17:01:07.982] [info] [sys] [t7448] XThread::Execute thid 5 (handle=F8000024, 'Kernel Dispatch (F8000024)', native=00001D18, <host>)
+[2026-08-16 17:01:07.984] [info] [sys] [t1208] KernelState: Preparing module launch...
+[2026-08-16 17:01:07.985] [info] [core] [t1208] Initializing shader storage for title 584107D1...
+[2026-08-16 17:01:07.987] [info] [gpu] [t13880] Translated 4 shaders from the storage in 0 milliseconds
+[2026-08-16 17:01:07.989] [info] [gpu] [t13880] Created 2 graphics pipelines (not including reading the descriptions) from the storage in 1 milliseconds
+[2026-08-16 17:01:07.990] [info] [gpu] [t9576] SetInterruptCallback(9209EC10, 40001600)
+[2026-08-16 17:01:07.990] [warning] [krnl] [t9576] __imp__KeSetPriorityThread STUB

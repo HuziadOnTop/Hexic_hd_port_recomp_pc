@@ -1,0 +1,47 @@
+[2026-08-16 16:44:12.648] [info] [core] [t15296] hexic_hd starting
+[2026-08-16 16:44:12.648] [info] [core] [t15296]   Game directory: C:\Users\AleemB\Downloads\Hexic_HD_Extraido
+[2026-08-16 16:44:12.648] [info] [core] [t15296]   User data:      C:\Users\AleemB\Documents\hexic_hd
+[2026-08-16 16:44:12.648] [info] [core] [t15296]   Cache root:     C:\Users\AleemB\Documents\hexic_hd\cache
+[2026-08-16 16:44:12.677] [debug] [sys] [t15296] Installed MMIO handler for physical address translation
+[2026-08-16 16:44:12.677] [info] [sys] [t15296] FunctionDispatcher initialized
+[2026-08-16 16:44:12.677] [info] [core] [t15296] SDL: Using version 3.5.0
+[2026-08-16 16:44:12.677] [info] [core] [t15296] MnK input driver initialized
+[2026-08-16 16:44:12.723] [info] [sys] [t15296] Input system initialized
+[2026-08-16 16:44:12.725] [debug] [apu] [t15296] XMA: Registered MMIO handlers at 0x7FEA0000-0x7FEAFFFF
+[2026-08-16 16:44:12.756] [info] [sys] [t11248] XThread::Execute thid 1 (handle=F8000010, 'XMA Decoder (F8000010)', native=00002BF0, <host>)
+[2026-08-16 16:44:12.756] [info] [sys] [t15296] Audio system initialized
+[2026-08-16 16:44:12.756] [info] [sys] [t8176] XThread::Execute thid 2 (handle=F8000014, 'Audio Worker (F8000014)', native=00001FF0, <host>)
+[2026-08-16 16:44:12.757] [info] [sys] [t15296]   Mounted C:\Users\AleemB\Downloads\Hexic_HD_Extraido at \Device\Harddisk0\Partition1
+[2026-08-16 16:44:12.757] [debug] [fs] [t15296] Registered symbolic link: game: => \Device\Harddisk0\Partition1
+[2026-08-16 16:44:12.757] [debug] [fs] [t15296] Registered symbolic link: d: => \Device\Harddisk0\Partition1
+[2026-08-16 16:44:12.757] [debug] [sys] [t15296]   Registered symbolic links: game:, d:
+[2026-08-16 16:44:12.757] [debug] [sys] [t15296]   Registered NullDevice for \Device\Harddisk0\{{Partition0,Cache0,Cache1}}
+[2026-08-16 16:44:12.757] [info] [sys] [t15296] Runtime initialized without graphics system (native rendering mode)
+[2026-08-16 16:44:12.757] [info] [sys] [t15296] Runtime initialized successfully
+[2026-08-16 16:44:12.757] [debug] [sys] [t15296] Initializing function table at 922A5000, size 00423238 for code 9204E000-9224F91C (+00010000 thunk reserve)
+[2026-08-16 16:44:12.758] [info] [core] [t15296] Function table initialized for module: code=9204E000-9224F91C, image=92000000-922A5000
+[2026-08-16 16:44:12.759] [debug] [sys] [t15296] Registered 7508 recompiled functions (0 duplicates, 0 rejected)
+[2026-08-16 16:44:12.759] [debug] [sys] [t15296] Runtime setup complete (code: 9204E000-9224F91C, image: 92000000-922A5000)
+[2026-08-16 16:44:12.782] [warning] [core] [t15296] SDL GameControllerDB: file 'gamecontrollerdb.txt' does not exist.
+[2026-08-16 16:44:12.782] [info] [core] [t15296] SDL input driver initialized successfully
+[2026-08-16 16:44:12.782] [info] [sys] [t15296] Loading XEX image: game:\default.xex
+[2026-08-16 16:44:12.782] [trace] [fs] [t15296] VFS resolved 'game:\default.xex' via symlink '\Device\Harddisk0\Partition1\default.xex' on device '\Device\Harddisk0\Partition1' -> '\Device\Harddisk0\Partition1\default.xex'
+[2026-08-16 16:44:12.804] [debug] [fs] [t15296] VFS: entry not found for '\Device\Harddisk0\Partition1\default.xexp' on device '\Device\Harddisk0\Partition1'
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] created symbols for import library xam with 33 imports
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] Patched variable import xboxkrnl:0x193 (XexExecutableModuleHandle) -> 0x30006000
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] Patched variable import xboxkrnl:0x1ae (ExLoadedCommandLine) -> 0x30008000
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] Patched variable import xboxkrnl:0x59 (KeDebugMonitorData) -> 0x30002000
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] Patched variable import xboxkrnl:0x1b (ExThreadObjectType) -> 0x30000000
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] Patched variable import xboxkrnl:0xad (KeTimeStampBundle) -> 0x3000a000
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] Patched variable import xboxkrnl:0x266 (KeCertMonitorData) -> 0x30003000
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] Patched variable import xboxkrnl:0x1bf (VdGlobalXamDevice) -> 0xffcad000
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] Patched variable import xboxkrnl:0x1be (VdGlobalDevice) -> 0xffcae000
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] Patched variable import xboxkrnl:0x1c1 (VdHSIOCalibrationLock) -> 0xffcab000
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] Patched variable import xboxkrnl:0x1c0 (VdGpuClockInMHz) -> 0xffcac000
+[2026-08-16 16:44:12.804] [debug] [core] [t15296] created symbols for import library xboxkrnl with 142 imports
+[2026-08-16 16:44:12.804] [info] [sys] [t15296] Achievement store: loaded 12 entries
+[2026-08-16 16:44:12.805] [info] [sys] [t376] XThread::Execute thid 3 (handle=F800001C, 'Kernel Dispatch (F800001C)', native=00000178, <host>)
+[2026-08-16 16:44:12.805] [debug] [sys] [t15296]   XEX image loaded successfully
+[2026-08-16 16:44:12.806] [info] [sys] [t15296] KernelState: Preparing module launch...
+[2026-08-16 16:44:12.806] [debug] [sys] [t15296]   Module prepared on thread ''
+[2026-08-16 16:44:12.806] [critical] [core] [t16192] [FATAL] Call to invalid or unregistered function at guest address 0x9224E768

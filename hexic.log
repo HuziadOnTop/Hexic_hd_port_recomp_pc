@@ -1,0 +1,26 @@
+[2026-08-16 16:42:14.523] [info] [core] [t5184] hexic_hd starting
+[2026-08-16 16:42:14.523] [info] [core] [t5184]   Game directory: C:\Users\AleemB\Downloads\Hexic_HD_Extraido
+[2026-08-16 16:42:14.523] [info] [core] [t5184]   User data:      C:\Users\AleemB\Documents\hexic_hd
+[2026-08-16 16:42:14.523] [info] [core] [t5184]   Cache root:     C:\Users\AleemB\Documents\hexic_hd\cache
+[2026-08-16 16:42:14.551] [debug] [sys] [t5184] Installed MMIO handler for physical address translation
+[2026-08-16 16:42:14.551] [info] [sys] [t5184] FunctionDispatcher initialized
+[2026-08-16 16:42:14.551] [info] [core] [t5184] SDL: Using version 3.5.0
+[2026-08-16 16:42:14.551] [info] [core] [t5184] MnK input driver initialized
+[2026-08-16 16:42:14.551] [info] [sys] [t5184] Input system initialized
+[2026-08-16 16:42:14.554] [debug] [apu] [t5184] XMA: Registered MMIO handlers at 0x7FEA0000-0x7FEAFFFF
+[2026-08-16 16:42:14.588] [info] [sys] [t15840] XThread::Execute thid 1 (handle=F8000010, 'XMA Decoder (F8000010)', native=00003DE0, <host>)
+[2026-08-16 16:42:14.588] [info] [sys] [t5184] Audio system initialized
+[2026-08-16 16:42:14.589] [info] [sys] [t13248] XThread::Execute thid 2 (handle=F8000014, 'Audio Worker (F8000014)', native=000033C0, <host>)
+[2026-08-16 16:42:14.589] [info] [sys] [t5184]   Mounted C:\Users\AleemB\Downloads\Hexic_HD_Extraido at \Device\Harddisk0\Partition1
+[2026-08-16 16:42:14.589] [debug] [fs] [t5184] Registered symbolic link: game: => \Device\Harddisk0\Partition1
+[2026-08-16 16:42:14.589] [debug] [fs] [t5184] Registered symbolic link: d: => \Device\Harddisk0\Partition1
+[2026-08-16 16:42:14.589] [debug] [sys] [t5184]   Registered symbolic links: game:, d:
+[2026-08-16 16:42:14.589] [debug] [sys] [t5184]   Registered NullDevice for \Device\Harddisk0\{{Partition0,Cache0,Cache1}}
+[2026-08-16 16:42:14.589] [info] [sys] [t5184] Runtime initialized without graphics system (native rendering mode)
+[2026-08-16 16:42:14.589] [info] [sys] [t5184] Runtime initialized successfully
+[2026-08-16 16:42:14.589] [debug] [sys] [t5184] Initializing function table at 922A5000, size 00423238 for code 9204E000-9224F91C (+00010000 thunk reserve)
+[2026-08-16 16:42:14.589] [error] [sys] [t5184] BaseHeap::AllocFixed invalid base alignment: base=922A5000 page_size=00010000 requested_alignment=00010000 heap=80000000-8FFFFFFF
+[2026-08-16 16:42:14.589] [error] [sys] [t5184] Failed to allocate function table at 922A5000
+[2026-08-16 16:42:14.589] [error] [core] [t5184] Failed to initialize guest memory function table
+[2026-08-16 16:42:14.589] [error] [sys] [t5184] Failed to initialize function table
+[2026-08-16 16:42:14.602] [error] [core] [t5184] Runtime setup failed: C0000001
